@@ -27,6 +27,8 @@
   font-size: 16px;
   background-color: var(--input-bg);
   color: var(--text-color);
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .contact-form textarea {
@@ -43,10 +45,9 @@
   font-size: 16px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-}
-
-.contact-form button:hover {
-  background-color: #0097a7;
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
 }
 
 /* Theme variables */
@@ -64,7 +65,7 @@
   --input-bg: #222;
 }
 
-/* Responsive */
+/* 📱 Mobile Responsiveness */
 @media (max-width: 600px) {
   .contact-section {
     padding: 40px 10px;
@@ -72,5 +73,19 @@
 
   .section-title {
     font-size: 24px;
+  }
+
+  .contact-form {
+    padding: 0 10px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 14px;
+  }
+
+  .contact-form button {
+    font-size: 14px;
+    padding: 10px;
   }
 }

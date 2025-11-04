@@ -8,7 +8,8 @@ export default function Certifications() {
       issuer: 'Automation Anywhere',
       date: 'September 18, 2025',
       image: automationCert,
-      pdf: '/certificates/essential-automation-certificate.pdf',
+      pdf: '/FUTURE_FS_01/certificates/essential-automation-certificate.pdf',
+
     },
     // Add more certificates here if needed
   ];
@@ -25,13 +26,13 @@ export default function Certifications() {
               <p>{cert.issuer}</p>
               <p>{cert.date}</p>
              <a
-                href="/certificates/essential-automation-certificate.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="cert-btn"
+                      href={cert.pdf}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="cert-btn"
                >
-               View PDF
-                 </a>
+                      View PDF
+              </a>
 
             </div>
           </div>
