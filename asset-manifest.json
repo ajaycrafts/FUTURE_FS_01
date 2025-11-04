@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/FUTURE_FS_01/static/css/main.6688c3d4.css",
+    "main.css": "/FUTURE_FS_01/static/css/main.a33219aa.css",
     "main.js": "/FUTURE_FS_01/static/js/main.b32e05bf.js",
     "static/media/automation-anywhere.jpg": "/FUTURE_FS_01/static/media/automation-anywhere.2f1a438ed2fcfa8f15e9.jpg",
     "index.html": "/FUTURE_FS_01/index.html",
-    "main.6688c3d4.css.map": "/FUTURE_FS_01/static/css/main.6688c3d4.css.map",
+    "main.a33219aa.css.map": "/FUTURE_FS_01/static/css/main.a33219aa.css.map",
     "main.b32e05bf.js.map": "/FUTURE_FS_01/static/js/main.b32e05bf.js.map"
   },
   "entrypoints": [
-    "static/css/main.6688c3d4.css",
+    "static/css/main.a33219aa.css",
     "static/js/main.b32e05bf.js"
   ]
 }
